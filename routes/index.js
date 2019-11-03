@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Azure Web Apps!' });
+  res.render('index', { title: 'Azure Web Apps!ほえー' });
 });
 
 module.exports = router;
